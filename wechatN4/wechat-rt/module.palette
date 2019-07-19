@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bajaObjectGraph version="4.0" reversibleEncodingKeySource="none" FIPSEnabled="false" reversibleEncodingValidator="[null.1]=" >
+ <p h="1" m="b=baja" t="b:Folder">
+  <!-- /WechatService -->
+  <p n="WechatService" h="2" m="wc=wechat" t="wc:WxService">
+   <p n="worker" h="3" t="wc:WxWorker">
+   </p>
+   <p n="accessToken" h="4" t="wc:WxAccessToken">
+   </p>
+   <p n="subscribersList" h="5" t="wc:WxSubscribers">
+   </p>
+   <p n="menus" h="6" t="wc:MenuContainerTop">
+   </p>
+   <p n="requests" h="7" t="wc:RequestContainer">
+   </p>
+   <p n="responses" h="8" t="wc:ResponseContainer">
+   </p>
+  </p>
+  <!-- /WechatAlarmRecipient -->
+  <p n="WechatAlarmRecipient" h="9" t="wc:WxRecipient">
+  </p>
+  <!-- /MessageResponser -->
+  <p n="MessageResponser" h="a" t="b:UnrestrictedFolder">
+   <!-- /MessageResponser/Read -->
+   <p n="Read" h="c" t="wc:WxRealtimeData">
+   </p>
+   <!-- /MessageResponser/Write -->
+   <p n="Write" h="d" t="wc:WxWriteData">
+   </p>
+   <!-- /MessageResponser/Event -->
+   <p n="Event" h="e" t="wc:WxSubscribeEvent">
+   </p>
+   <!-- /MessageResponser/Trigger -->
+   <p n="Trigger" h="f" t="wc:WxTrigger">
+   </p>
+   <!-- /MessageResponser/VoiceTrigger -->
+   <p n="VoiceTrigger" h="17" t="wc:WxVoiceTrigger">
+   </p>
+  </p>
+  <!-- /WxMenus -->
+  <p n="WxMenus" h="b" t="wc:MenuContainerTop">
+   <!-- /WxMenus/RealtimeData -->
+   <p n="RealtimeData" h="10" t="wc:MenuClick">
+    <p n="menuName" v="&#x5b9e;&#x65f6;&#x6570;&#x636e;"/>
+    <p n="key" v="RealtimeData"/>
+   </p>
+   <!-- /WxMenus/Control -->
+   <p n="Control" h="11" t="wc:MenuContainer">
+    <p n="menuName" v="&#x63a7;&#x5236;"/>
+    <!-- /WxMenus/Control/Open -->
+    <p n="Open" h="13" t="wc:MenuClick">
+     <p n="menuName" v="&#x5f00;&#x706f;"/>
+     <p n="key" v="OpenLight"/>
+    </p>
+    <!-- /WxMenus/Control/Close -->
+    <p n="Close" h="14" t="wc:MenuClick">
+     <p n="menuName" v="&#x5173;&#x706f;"/>
+     <p n="key" v="CloseLight"/>
+    </p>
+   </p>
+   <!-- /WxMenus/Links -->
+   <p n="Links" h="12" t="wc:MenuContainer">
+    <p n="menuName" v="&#x94fe;&#x63a5;"/>
+    <!-- /WxMenus/Links/Tridium -->
+    <p n="Tridium" h="15" t="wc:MenuView">
+     <p n="menuName" v="Tridium&#x5b98;&#x7f51;"/>
+    </p>
+    <!-- /WxMenus/Links/Home -->
+    <p n="Home" h="16" t="wc:MenuView">
+     <p n="menuName" v="&#x4e3b;&#x9875;"/>
+     <p n="url" v="http://niagara.chinacloudapp.cn"/>
+    </p>
+   </p>
+  </p>
+ </p>
+</bajaObjectGraph>

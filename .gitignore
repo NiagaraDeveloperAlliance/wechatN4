@@ -1,0 +1,8 @@
+*.iml
+.idea/
+.scannerwork/
+.gradle
+build/
+out/
+module-include.xml
+moduleTest-include.xml
