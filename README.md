@@ -31,6 +31,6 @@
 
 ## How to Use
 
-[Niagara 与微信的交互集成](<https://github.com/NiagarasDeveloperAlliance/wechatN4/blob/master/Integrate-Niagara-with-WeChat.pdf>)
+[Niagara 与微信的交互集成](<Integrate-Niagara-with-WeChat.pdf>)
 
 分享于 2019 Tridium 中国合作伙伴峰会开发培训
